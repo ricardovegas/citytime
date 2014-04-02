@@ -154,6 +154,29 @@ table.menu tr:hover {
     background-color: #d6c6a1;
 }
 
+#nav-menu {
+    position: absolute;
+    left: 400px
+}
+#nav-menu ul
+{
+    font-size: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#nav-menu li
+{
+    font-family: 'Dosis', Helvetica, Arial, sans-serif;
+    float: left;
+    padding: 0 7px;
+    background: url('menu_separator.png') no-repeat -3px 0;
+}
+
+#nav-menu li a {
+}
+
 /* Square rows - Body
 .brand-body {
     overflow: hidden;
