@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "Dosis";
+    src: url('dosis.medium.ttf') format("truetype");
+}
 body {
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-weight: 300;
@@ -114,19 +118,20 @@ li.sq-left-6, li.sq-right-6 {
 div.app-logo {
     position: absolute;
     top: 10px;
-    left: 150px;
+    left: 135px;
 }
 
 table.menu {
-    margin: 0 auto;
-    width: 80%;
+    font-family: 'Dosis', Helvetica, Arial, sans-serif;
+    width: 70%;
     border-collapse: collapse;
     border-radius: 8px;
+    margin: 0 auto 0 90px;
 }
 
 table.menu th {
     background: #acc8cc;
-    background: linear-gradient(to bottom, rgba(0,132,168,1) 0%,rgba(0,116,142,1) 100%); /* W3C */
+    background: linear-gradient(to bottom, rgb(0, 70, 168) 0%, rgb(0, 62, 78) 100%); /* W3C */
     padding: 8px;
     text-align: center;
     border-radius: 8px 8px 0 0;
